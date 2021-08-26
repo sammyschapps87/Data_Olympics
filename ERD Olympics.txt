@@ -1,0 +1,53 @@
+https://app.quickdatabasediagrams.com/#/
+----------------------
+
+HostCity
+-
+id PK int
+City varchar(50)
+Year int
+
+
+Events
+-
+id PK int
+Events varchar(50)
+Discipline varchar(50)
+Gender varchar(10)
+
+Countries
+-
+id int PK
+Name varchar(50) 
+Code varchar(3) NULL
+
+
+
+Athletes
+----
+id PK int
+Country varchar(50) FK >-< Countries.Name
+Name varchar(50)
+
+
+Medals
+----
+id PK int
+Year inty FK >- HostCity.Year
+Country varchar(50) FK >- Countries.Name
+Medal varchar(10)
+
+
+
+MultiWinnningAthletes
+-
+No. int PK
+Athlete varchar(50)
+Nation varchar(50) FK >-< Countries.Name
+Sport varchar(50) FK >- Events.Discipline
+Years varchar(10)
+Gender varchar(10)
+Gold int
+Silver int
+Bronze int
+Total int
