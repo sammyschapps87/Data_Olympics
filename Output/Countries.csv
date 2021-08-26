@@ -1,0 +1,214 @@
+,Country,Country_Code
+0,East Germany,GDR
+1,Soviet Union,URS
+2,United States,USA
+3,Italy,ITA
+10,Sweden,SWE
+15,Australia,AUS
+20,Canada,CAN
+30,West Germany,FRG
+31,Netherlands,NED
+32,United Kingdom,GBR
+129,Hungary,HUN
+161,Japan,JPN
+172,Cuba,CUB
+187,Poland,POL
+194,Bulgaria,BUL
+210,New Zealand,NZL
+217,Belgium,BEL
+220,Mexico,MEX
+244,Jamaica,JAM
+250,Finland,FIN
+263,Romania,ROU
+280,Portugal,POR
+285,France,FRA
+286,Brazil,BRA
+292,Czechoslovakia,TCH
+308,Trinidad and Tobago,TRI
+312,Yugoslavia,YUG
+384,Venezuela,VEN
+398,Puerto Rico*,PUR
+409,"Korea, North",PRK
+411,Bermuda*,BER
+419,Thailand,THA
+438,Spain,ESP
+489,Denmark,DEN
+521,Switzerland,SUI
+770,,
+968,Pakistan,PAK
+1018,"Korea, South",KOR
+1105,Norway,NOR
+1248,Austria,AUT
+1359,Iran,IRI
+1362,Mongolia,MGL
+1603,Ethiopia,ETH
+1661,Tanzania,TAN
+1816,Guyana,GUY
+1833,Uganda,UGA
+1852,Ireland,IRL
+2288,India,IND
+2298,Zimbabwe,ZIM
+2609,Greece,GRE
+2793,Lebanon,LIB
+2813,China,CHN
+3007,Nigeria,NGR
+3067,Kenya,KEN
+3071,Morocco,MAR
+3136,Cote d'Ivoire,CIV
+3252,Algeria,ALG
+3262,Turkey,TUR
+3263,Cameroon,CMR
+3272,Zambia,ZAM
+3273,Dominican Republic,DOM
+3844,Iceland,ISL
+3856,Egypt,EGY
+4074,Colombia,COL
+4087,Peru,PER
+4196,Taiwan,TPE
+4208,Syria,SYR
+4374,Costa Rica,CRC
+4411,Suriname,SUR
+4481,Indonesia,INA
+4627,Djibouti,DJI
+4633,Senegal,SEN
+4739,Philippines,PHI
+5555,Netherlands Antilles*,AHO
+5556,Virgin Islands*,ISV
+5595,Chile,CHI
+5651,Argentina,ARG
+5816,Unified team,EUN
+5819,Germany,GER
+6123,Bahamas,BAH
+6133,South Africa,RSA
+6150,Namibia,NAM
+6192,Qatar,QAT
+6235,Lithuania,LTU
+6245,Malaysia,MAS
+6328,Croatia,CRO
+6493,Latvia,LAT
+6551,Estonia,EST
+6700,Ghana,GHA
+7025,Israel,ISR
+7065,Slovenia,SLO
+7280,Independent Olympic Participants (1992),IOP
+7523,Russia,RUS
+7795,Ukraine,UKR
+7808,Belarus,BLR
+7882,Burundi,BDI
+7886,Ecuador,ECU
+7896,Mozambique,MOZ
+7906,Czech Republic,CZE
+8156,Tunisia,TUN
+8158,Kazakhstan,KAZ
+8166,Tonga,TGA
+8180,Uzbekistan,UZB
+8206,Slovakia,SVK
+8215,Moldova,MDA
+8858,Georgia,GEO
+9032,Hong Kong*,HKG
+9325,Armenia,ARM
+9338,Azerbaijan,AZE
+9733,Saudi Arabia,KSA
+9800,Barbados,BAR
+9822,Sri Lanka,SRI
+10243,Uruguay,URU
+10822,Kyrgyzstan,KGZ
+11069,Kuwait,KUW
+11181,Vietnam,VIE
+11359,Macedonia,MKD
+11647,Serbia,SCG
+11859,Eritrea,ERI
+12410,Paraguay,PAR
+13091,United Arab Emirates,UAE
+13530,Serbia,SRB
+13833,Panama,PAN
+13848,Sudan,SUD
+14145,Mauritius,MRI
+14227,Togo,TOG
+14824,Tajikistan,TJK
+15158,Singapore,SIN
+15192,Afghanistan,AFG
+0,Belgium,
+1,People's Republic of China,
+3,France,
+4,Italy,
+5,Japan,
+7,Latvia,
+8,Mongolia,
+9,Netherlands,
+10,Poland,
+11,ROC,
+13,Romania,
+14,Serbia,
+15,United States of America,
+16,Australia,
+18,Bangladesh,
+19,Belarus,
+20,Brazil,
+21,Canada,
+25,Chinese Taipei,
+28,Colombia,
+29,Egypt,
+32,Germany,
+34,Great Britain,
+37,India,
+39,Indonesia,
+46,Kazakhstan,
+47,Malaysia,
+48,Mexico,
+54,Republic of Moldova,
+55,Republic of Korea,
+60,Spain,
+61,Tunisia,
+62,Turkey,
+63,Ukraine,
+68,Vietnam,
+89,Switzerland,
+95,Austria,
+106,Greece,
+108,Israel,
+114,Liechtenstein,
+119,South Africa,
+126,Bahamas,
+131,Botswana,
+140,Cuba,
+141,Czech Republic,
+142,Denmark,
+144,Dominican Republic,
+145,Ecuador,
+155,Ghana,
+163,Ireland,
+169,Jamaica,
+182,Nigeria,
+193,Trinidad and Tobago,
+216,Argentina,
+226,Islamic Republic of Iran,
+232,Puerto Rico,
+235,Slovenia,
+250,Chile,
+264,Kenya,
+268,Morocco,
+272,Norway,
+275,Qatar,
+319,"Hong Kong, China",
+327,Lithuania,
+333,New Zealand,
+360,Estonia,
+369,Hungary,
+412,Côte d'Ivoire,
+417,Honduras,
+426,Saudi Arabia,
+429,Sweden,
+431,Zambia,
+432,Angola,
+434,Bahrain,
+445,Montenegro,
+449,Portugal,
+481,Azerbaijan,
+484,Bulgaria,
+493,Uzbekistan,
+501,Fiji,
+645,Croatia,
+673,Singapore,
+674,Slovakia,
+720,Venezuela,
