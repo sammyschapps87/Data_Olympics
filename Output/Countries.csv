@@ -1,214 +1,157 @@
-,Country,Country_Code
-0,East Germany,GDR
-1,Soviet Union,URS
-2,United States,USA
-3,Italy,ITA
-10,Sweden,SWE
-15,Australia,AUS
-20,Canada,CAN
-30,West Germany,FRG
-31,Netherlands,NED
-32,United Kingdom,GBR
-129,Hungary,HUN
-161,Japan,JPN
-172,Cuba,CUB
-187,Poland,POL
-194,Bulgaria,BUL
-210,New Zealand,NZL
-217,Belgium,BEL
-220,Mexico,MEX
-244,Jamaica,JAM
-250,Finland,FIN
-263,Romania,ROU
-280,Portugal,POR
-285,France,FRA
-286,Brazil,BRA
-292,Czechoslovakia,TCH
-308,Trinidad and Tobago,TRI
-312,Yugoslavia,YUG
-384,Venezuela,VEN
-398,Puerto Rico*,PUR
-409,"Korea, North",PRK
-411,Bermuda*,BER
-419,Thailand,THA
-438,Spain,ESP
-489,Denmark,DEN
-521,Switzerland,SUI
-770,,
-968,Pakistan,PAK
-1018,"Korea, South",KOR
-1105,Norway,NOR
-1248,Austria,AUT
-1359,Iran,IRI
-1362,Mongolia,MGL
-1603,Ethiopia,ETH
-1661,Tanzania,TAN
-1816,Guyana,GUY
-1833,Uganda,UGA
-1852,Ireland,IRL
-2288,India,IND
-2298,Zimbabwe,ZIM
-2609,Greece,GRE
-2793,Lebanon,LIB
-2813,China,CHN
-3007,Nigeria,NGR
-3067,Kenya,KEN
-3071,Morocco,MAR
-3136,Cote d'Ivoire,CIV
-3252,Algeria,ALG
-3262,Turkey,TUR
-3263,Cameroon,CMR
-3272,Zambia,ZAM
-3273,Dominican Republic,DOM
-3844,Iceland,ISL
-3856,Egypt,EGY
-4074,Colombia,COL
-4087,Peru,PER
-4196,Taiwan,TPE
-4208,Syria,SYR
-4374,Costa Rica,CRC
-4411,Suriname,SUR
-4481,Indonesia,INA
-4627,Djibouti,DJI
-4633,Senegal,SEN
-4739,Philippines,PHI
-5555,Netherlands Antilles*,AHO
-5556,Virgin Islands*,ISV
-5595,Chile,CHI
-5651,Argentina,ARG
-5816,Unified team,EUN
-5819,Germany,GER
-6123,Bahamas,BAH
-6133,South Africa,RSA
-6150,Namibia,NAM
-6192,Qatar,QAT
-6235,Lithuania,LTU
-6245,Malaysia,MAS
-6328,Croatia,CRO
-6493,Latvia,LAT
-6551,Estonia,EST
-6700,Ghana,GHA
-7025,Israel,ISR
-7065,Slovenia,SLO
-7280,Independent Olympic Participants (1992),IOP
-7523,Russia,RUS
-7795,Ukraine,UKR
-7808,Belarus,BLR
-7882,Burundi,BDI
-7886,Ecuador,ECU
-7896,Mozambique,MOZ
-7906,Czech Republic,CZE
-8156,Tunisia,TUN
-8158,Kazakhstan,KAZ
-8166,Tonga,TGA
-8180,Uzbekistan,UZB
-8206,Slovakia,SVK
-8215,Moldova,MDA
-8858,Georgia,GEO
-9032,Hong Kong*,HKG
-9325,Armenia,ARM
-9338,Azerbaijan,AZE
-9733,Saudi Arabia,KSA
-9800,Barbados,BAR
-9822,Sri Lanka,SRI
-10243,Uruguay,URU
-10822,Kyrgyzstan,KGZ
-11069,Kuwait,KUW
-11181,Vietnam,VIE
-11359,Macedonia,MKD
-11647,Serbia,SCG
-11859,Eritrea,ERI
-12410,Paraguay,PAR
-13091,United Arab Emirates,UAE
-13530,Serbia,SRB
-13833,Panama,PAN
-13848,Sudan,SUD
-14145,Mauritius,MRI
-14227,Togo,TOG
-14824,Tajikistan,TJK
-15158,Singapore,SIN
-15192,Afghanistan,AFG
-0,Belgium,
-1,People's Republic of China,
-3,France,
-4,Italy,
-5,Japan,
-7,Latvia,
-8,Mongolia,
-9,Netherlands,
-10,Poland,
-11,ROC,
-13,Romania,
-14,Serbia,
-15,United States of America,
-16,Australia,
-18,Bangladesh,
-19,Belarus,
-20,Brazil,
-21,Canada,
-25,Chinese Taipei,
-28,Colombia,
-29,Egypt,
-32,Germany,
-34,Great Britain,
-37,India,
-39,Indonesia,
-46,Kazakhstan,
-47,Malaysia,
-48,Mexico,
-54,Republic of Moldova,
-55,Republic of Korea,
-60,Spain,
-61,Tunisia,
-62,Turkey,
-63,Ukraine,
-68,Vietnam,
-89,Switzerland,
-95,Austria,
-106,Greece,
-108,Israel,
-114,Liechtenstein,
-119,South Africa,
-126,Bahamas,
-131,Botswana,
-140,Cuba,
-141,Czech Republic,
-142,Denmark,
-144,Dominican Republic,
-145,Ecuador,
-155,Ghana,
-163,Ireland,
-169,Jamaica,
-182,Nigeria,
-193,Trinidad and Tobago,
-216,Argentina,
-226,Islamic Republic of Iran,
-232,Puerto Rico,
-235,Slovenia,
-250,Chile,
-264,Kenya,
-268,Morocco,
-272,Norway,
-275,Qatar,
-319,"Hong Kong, China",
-327,Lithuania,
-333,New Zealand,
-360,Estonia,
-369,Hungary,
-412,Côte d'Ivoire,
-417,Honduras,
-426,Saudi Arabia,
-429,Sweden,
-431,Zambia,
-432,Angola,
-434,Bahrain,
-445,Montenegro,
-449,Portugal,
-481,Azerbaijan,
-484,Bulgaria,
-493,Uzbekistan,
-501,Fiji,
-645,Croatia,
-673,Singapore,
-674,Slovakia,
-720,Venezuela,
+,Country,NOC
+0,East Germany,East Germany
+1,Russia,Soviet Union
+2,United States,United States
+3,Italy,Italy
+4,Sweden,Sweden
+5,Australia,Australia
+6,Canada,Canada
+7,West Germany,West Germany
+8,Netherlands,Netherlands
+9,United Kingdom,United Kingdom
+10,Hungary,Hungary
+11,Japan,Japan
+12,Cuba,Cuba
+13,Poland,Poland
+14,Bulgaria,Bulgaria
+15,New Zealand,New Zealand
+16,Belgium,Belgium
+17,Mexico,Mexico
+18,Jamaica,Jamaica
+19,Finland,Finland
+20,Romania,Romania
+21,Portugal,Portugal
+22,France,France
+23,Brazil,Brazil
+24,Czechoslovakia,Czechoslovakia
+25,Trinidad and Tobago,Trinidad and Tobago
+26,Yugoslavia,Yugoslavia
+27,Venezuela,Venezuela
+28,Puerto Rico,Puerto Rico*
+29,"Korea, North","Korea, North"
+30,Bermuda,Bermuda*
+31,Thailand,Thailand
+32,Spain,Spain
+33,Denmark,Denmark
+34,Switzerland,Switzerland
+35,Pakistan,Pakistan
+36,"Korea, South","Korea, South"
+37,Norway,Norway
+38,Austria,Austria
+39,Iran,Iran
+40,Mongolia,Mongolia
+41,Ethiopia,Ethiopia
+42,Tanzania,Tanzania
+43,Guyana,Guyana
+44,Uganda,Uganda
+45,Ireland,Ireland
+46,India,India
+47,Zimbabwe,Zimbabwe
+48,Greece,Greece
+49,Lebanon,Lebanon
+50,China,China
+51,Nigeria,Nigeria
+52,Kenya,Kenya
+53,Morocco,Morocco
+54,Cote d'Ivoire,Cote d'Ivoire
+55,Algeria,Algeria
+56,Turkey,Turkey
+57,Cameroon,Cameroon
+58,Zambia,Zambia
+59,Dominican Republic,Dominican Republic
+60,Iceland,Iceland
+61,Egypt,Egypt
+62,Colombia,Colombia
+63,Peru,Peru
+64,Taiwan,Taiwan
+65,Syria,Syria
+66,Costa Rica,Costa Rica
+67,Suriname,Suriname
+68,Indonesia,Indonesia
+69,Djibouti,Djibouti
+70,Senegal,Senegal
+71,Philippines,Philippines
+72,Netherlands,Netherlands Antilles*
+73,Virgin Islands,Virgin Islands*
+74,Chile,Chile
+75,Argentina,Argentina
+76,Russia,Unified team
+77,Germany,Germany
+78,Bahamas,Bahamas
+79,South Africa,South Africa
+80,Namibia,Namibia
+81,Qatar,Qatar
+82,Lithuania,Lithuania
+83,Malaysia,Malaysia
+84,Croatia,Croatia
+85,Latvia,Latvia
+86,Estonia,Estonia
+87,Ghana,Ghana
+88,Israel,Israel
+89,Slovenia,Slovenia
+90,Independent Olympic Participants (1992),Independent Olympic Participants (1992)
+91,Russia,Russia
+92,Ukraine,Ukraine
+93,Belarus,Belarus
+94,Burundi,Burundi
+95,Ecuador,Ecuador
+96,Mozambique,Mozambique
+97,Czech Republic,Czech Republic
+98,Tunisia,Tunisia
+99,Kazakhstan,Kazakhstan
+100,Tonga,Tonga
+101,Uzbekistan,Uzbekistan
+102,Slovakia,Slovakia
+103,Moldova,Moldova
+104,Georgia,Georgia
+105,Hong Kong,Hong Kong*
+106,Armenia,Armenia
+107,Azerbaijan,Azerbaijan
+108,Saudi Arabia,Saudi Arabia
+109,Barbados,Barbados
+110,Sri Lanka,Sri Lanka
+111,Uruguay,Uruguay
+112,Kyrgyzstan,Kyrgyzstan
+113,Kuwait,Kuwait
+114,Vietnam,Vietnam
+115,North Macedonia,Macedonia
+116,Serbia,Serbia
+117,Eritrea,Eritrea
+118,Paraguay,Paraguay
+119,United Arab Emirates,United Arab Emirates
+120,Panama,Panama
+121,Sudan,Sudan
+122,Mauritius,Mauritius
+123,Togo,Togo
+124,Tajikistan,Tajikistan
+125,Singapore,Singapore
+126,Afghanistan,Afghanistan
+127,China,People's Republic of China
+128,ROC,ROC
+129,United States,United States of America
+130,Bangladesh,Bangladesh
+131,Chinese Taipei,Chinese Taipei
+132,Great Britain,Great Britain
+133,Republic of Moldova,Republic of Moldova
+134,Republic of Korea,Republic of Korea
+135,Liechtenstein,Liechtenstein
+136,Botswana,Botswana
+137,Islamic Republic of Iran,Islamic Republic of Iran
+138,Puerto Rico,Puerto Rico
+139,Hong Kong,"Hong Kong, China"
+140,Côte d'Ivoire,Côte d'Ivoire
+141,Honduras,Honduras
+142,Angola,Angola
+143,Bahrain,Bahrain
+144,Montenegro,Montenegro
+145,Fiji,Fiji
+146,Kosovo,Kosovo
+147,Bermuda,Bermuda
+148,San Marino,San Marino
+149,Jordan,Jordan
+150,North Macedonia,North Macedonia
+151,Turkmenistan,Turkmenistan
+152,Burkina Faso,Burkina Faso
+153,Grenada,Grenada
+154,Syria,Syrian Arab Republic
+155,"Korea, South",South Korea
