@@ -1,6 +1,9 @@
 https://app.quickdatabasediagrams.com/#/
 ----------------------
 
+
+
+
 HostCity
 -
 id PK int
@@ -19,14 +22,14 @@ Countries
 -
 id int PK
 Name varchar(50) 
-Code varchar(3) NULL
+NOC varchar(50)
 
 
 
 Athletes
 ----
 id PK int
-Country varchar(50) FK >-< Countries.Name
+Country varchar(50) FK >-< Countries.NOC
 Name varchar(50)
 
 
@@ -34,16 +37,19 @@ Medals
 ----
 id PK int
 Year inty FK >- HostCity.Year
-Country varchar(50) FK >- Countries.Name
-Medal varchar(10)
+Country varchar(50) FK >-< Countries.NOC
+Gold int
+Silver int
+Bronze int
+Total int
 
 
 
 MultiWinnningAthletes
 -
-No. int PK
-Athlete varchar(50)
-Nation varchar(50) FK >-< Countries.Name
+No. int
+Athlete varchar(50) FK >- Athletes.Name
+Nation varchar(50) FK >-< Countries.NOC
 Sport varchar(50) FK >- Events.Discipline
 Years varchar(10)
 Gender varchar(10)
