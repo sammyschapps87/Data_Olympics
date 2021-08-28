@@ -1,96 +1,94 @@
 
 
 CREATE TABLE HostCity (
-    id int NOT NULL,
-    City varchar(20)  NOT NULL,
-    Year int   NOT NULL,
+    id              INT               NOT NULL,
+    City            VARCHAR(20)       NOT NULL,
+    Year            INT               NOT NULL,
     PRIMARY KEY (Year)
-     );
+);
 	 
 	
 
 CREATE TABLE Events (
-    id int NOT NULL,
-    Events varchar(50) ,
-    Discipline varchar(50),
-    Gender varchar(50)
+    id              INT               NOT NULL,
+    Events          VARCHAR(50) ,
+    Discipline      VARCHAR(50),
+    Gender          VARCHAR(50)
 );
 
 
 
 
 CREATE TABLE Countries (
-    id int   NOT NULL,
-    Name varchar(50)   NOT NULL,
-    NOC varchar(50)   NOT NULL,
+    id              INT               NOT NULL,
+    Name            VARCHAR(50)       NOT NULL,
+    NOC             VARCHAR(50)       NOT NULL,
 	PRIMARY KEY (NOC)
 );
 
 
 
 CREATE TABLE Athletes (
-    id int  ,
-    Name varchar(50),
-	Country varchar(50),
+    id              INT  ,
+    Name            VARCHAR(50),
+	Country         VARCHAR(50),
     PRIMARY KEY (id)
 	--FOREIGN KEY (Country) REFERENCES Countries(NOC)
 );
 
-drop table athletes
-
-select * from athletes
-
+DROP TABLE athletes
+SELECT * FROM athletes
 
 
 
 CREATE TABLE Medals (
-    id int   NOT NULL,
-    Year int   NOT NULL,
-    Country varchar(50)   NOT NULL,
-    Gold int   NOT NULL,
-    Silver int   NOT NULL,
-    Bronze int   NOT NULL,
-    Total int   NOT NULL,
+    id              INT               NOT NULL,
+    Year            INT               NOT NULL,
+    Country         VARCHAR(50)       NOT NULL,
+    Gold            INT               NOT NULL,
+    Silver          INT               NOT NULL,
+    Bronze          INT               NOT NULL,
+    Total           INT               NOT NULL,
   	PRIMARY KEY (id),
-	FOREIGN KEY (Country) REFERENCES Countries(NOC),
-	FOREIGN KEY (Year) REFERENCES HostCity(Year)
+	FOREIGN KEY (Country)             REFERENCES Countries(NOC),
+	FOREIGN KEY (Year)                REFERENCES HostCity(Year)
 );
 
 
 
 CREATE TABLE EventWinners (
-    id int   NOT NULL,
-    Year int   NOT NULL,
-    Sport varchar(50)   NOT NULL,
-    Discipline varchar(50)   NOT NULL,
-    Event varchar(50)   NOT NULL,
-    Athlete varchar(50)   NOT NULL,
-    Gender varchar(50)   NOT NULL,
-    Country varchar(50)   NOT NULL,
-    Event_gender varchar(50)   NOT NULL,
-    Medal varchar(10)   NOT NULL,
-    FOREIGN KEY (Year) REFERENCES HostCity(Year),
+    id              INT               NOT NULL,
+    Year            INT               NOT NULL,
+    Sport           VARCHAR(50)       NOT NULL,
+    Discipline      VARCHAR(50)       NOT NULL,
+    Event           VARCHAR(50)       NOT NULL,
+    Athlete         VARCHAR(50)       NOT NULL,
+    Gender          VARCHAR(50)       NOT NULL,
+    Country         VARCHAR(50)       NOT NULL,
+    Event_gender    VARCHAR(50)       NOT NULL,
+    Medal           VARCHAR(10)       NOT NULL,
+    FOREIGN KEY (Year)                REFERENCES HostCity(Year),
 --	FOREIGN KEY (Sport) REFERENCES Events(Discipline),
-	FOREIGN KEY (Country) REFERENCES Countries(NOC)
-	
+	FOREIGN KEY (Country)             REFERENCES Countries(NOC)	
 );
+
 
 
 CREATE TABLE MultiWinnningAthletes (
-    Rank int ,
-    Athlete varchar(50),
-    Nation varchar(50),
-    Sport varchar(50),
-    Years varchar(15),
-	Games varchar(50),
-    Gender varchar(10),
-    Gold int   NOT NULL,
-    Silver int   NOT NULL,
-    Bronze int   NOT NULL,
-    Total int   NOT NULL,
+    Rank            INT ,
+    Athlete         VARCHAR(50),
+    Nation          VARCHAR(50),
+    Sport           VARCHAR(50),
+    Years           VARCHAR(15),
+	Games           VARCHAR(50),
+    Gender          VARCHAR(10),
+    Gold            INT               NOT NULL,
+    Silver          INT               NOT NULL,
+    Bronze          INT               NOT NULL,
+    Total           INT               NOT NULL,
 	--FOREIGN KEY (Athlete) REFERENCES Athletes(Name),
-	FOREIGN KEY (Nation) REFERENCES Countries(NOC)
+	FOREIGN KEY (Nation)              REFERENCES Countries(NOC)
 	--FOREIGN KEY (Sport) REFERENCES Events(Discipline)
 );
 
-drop table MultiWinnningAthletes
+DROP TABLE MultiWinnningAthletes
