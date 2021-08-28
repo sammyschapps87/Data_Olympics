@@ -23,7 +23,7 @@ CREATE TABLE Countries (
     id              INT               NOT NULL,
     Name            VARCHAR(50)       NOT NULL,
     NOC             VARCHAR(50)       NOT NULL,
-	PRIMARY KEY (NOC)
+    PRIMARY KEY (NOC)
 );
 
 
@@ -31,7 +31,7 @@ CREATE TABLE Countries (
 CREATE TABLE Athletes (
     id              INT  ,
     Name            VARCHAR(50),
-	Country         VARCHAR(50),
+    Country         VARCHAR(50),
     PRIMARY KEY (id)
 	--FOREIGN KEY (Country) REFERENCES Countries(NOC)
 );
@@ -49,9 +49,9 @@ CREATE TABLE Medals (
     Silver          INT               NOT NULL,
     Bronze          INT               NOT NULL,
     Total           INT               NOT NULL,
-  	PRIMARY KEY (id),
-	FOREIGN KEY (Country)             REFERENCES Countries(NOC),
-	FOREIGN KEY (Year)                REFERENCES HostCity(Year)
+    PRIMARY KEY (id),
+    FOREIGN KEY (Country)             REFERENCES Countries(NOC),
+    FOREIGN KEY (Year)                REFERENCES HostCity(Year)
 );
 
 
@@ -69,7 +69,7 @@ CREATE TABLE EventWinners (
     Medal           VARCHAR(10)       NOT NULL,
     FOREIGN KEY (Year)                REFERENCES HostCity(Year),
 --	FOREIGN KEY (Sport) REFERENCES Events(Discipline),
-	FOREIGN KEY (Country)             REFERENCES Countries(NOC)	
+    FOREIGN KEY (Country)             REFERENCES Countries(NOC)	
 );
 
 
@@ -80,14 +80,14 @@ CREATE TABLE MultiWinnningAthletes (
     Nation          VARCHAR(50),
     Sport           VARCHAR(50),
     Years           VARCHAR(15),
-	Games           VARCHAR(50),
+    Games           VARCHAR(50),
     Gender          VARCHAR(10),
     Gold            INT               NOT NULL,
     Silver          INT               NOT NULL,
     Bronze          INT               NOT NULL,
     Total           INT               NOT NULL,
 	--FOREIGN KEY (Athlete) REFERENCES Athletes(Name),
-	FOREIGN KEY (Nation)              REFERENCES Countries(NOC)
+    FOREIGN KEY (Nation)              REFERENCES Countries(NOC)
 	--FOREIGN KEY (Sport) REFERENCES Events(Discipline)
 );
 
