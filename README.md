@@ -53,7 +53,7 @@ By using a relational database to load our data, we aim to create and provide me
 
 - Downloaded [Tokyo Olympics Medal Count](https://www.kaggle.com/berkayalan/2021-olympics-medals-in-tokyo) as .csv files 
 - Downloaded Information regadring [Teams, Athletes, Medals, Gender](https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo) in form of .xlsx files
-- Used webscraping to download the [list of most Olympic gold medals over any career](https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists)
+- Used webscraping to download the [list of most Olympic gold medals over career](https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists)
 - This is the list of multiple Olympic gold medalists, listing people who have won four or more Olympic gold medals.
 
 
