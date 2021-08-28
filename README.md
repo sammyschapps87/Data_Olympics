@@ -65,13 +65,13 @@ By using a relational database to load our data, we aim to create and provide me
 - Read the .csv file into Jupyter Notebook for cleaning and transformation
 
 ---
-#### 2. Transformations
+### 2. Transformations
 - 
 - To create our host city table the large data set containing olympic data from 1976 - 2008 was filtered to only show which city hosted the olympics and when. In order to do this the csv file was read into pandas and cleaned to only give values for the variables City and Year. After this na values were dropped as well as all duplicate rows (there were a lot of them) in order to get a small and precise table. Since this csv file only contained data up to the year 2008, we created a separate pandas dataframe to account for years 2012, 2016 and 2021. These two data frames were then merged to get our complete Host City table. 
 - 
 - 
 ---
-#### 3. Load
+### 3. Load
 - 
 - 
 - 
