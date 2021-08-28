@@ -66,6 +66,7 @@ By using a relational database to load our data, we aim to create and provide me
 - Extracted infomration about athlete, their country, gender, discipline in which he/she won and the event name from this [dataset](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Summer%20Olympics%20Medals%201976-2008)
 - Placed this file in common [Dataset](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets) folder
 - Read the .csv file into Jupyter Notebook for cleaning and transformation
+- 
 
 
 ---
@@ -74,9 +75,11 @@ By using a relational database to load our data, we aim to create and provide me
 - To create our host city table the large data set containing olympic data from 1976 - 2008 was filtered to only show which city hosted the olympics and when. In order to do this the csv file was read into pandas and cleaned to only give values for the variables City and Year. After this na values were dropped as well as all duplicate rows (there were a lot of them) in order to get a small and precise table. Since this csv file only contained data up to the year 2008, we created a separate pandas dataframe to account for years 2012, 2016 and 2021. These two data frames were then merged to get our complete Host City table. 
 - 
 - 
+- 
 ---
 ### 3. Load
-- 
+- Load into postgres with tables in order.
+- We chose postgres becauseof it's tables function. 
 - 
 - 
 - 
