@@ -56,6 +56,7 @@ By using a relational database to load our data, we aim to create and provide me
 - Downloaded Information regadring [Teams, Athletes, Medals, Gender](https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo) in form of [.xlsx files](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Tokyo_2020)
 - Used webscraping to download the [list of most Olympic gold medals over any career](https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists)
 - This is the list of multiple Olympic gold medalists, listing people who have won four or more Olympic gold medals.
+- Read these files into Jupyter Notebook for cleaning and transformation
 
 
 
