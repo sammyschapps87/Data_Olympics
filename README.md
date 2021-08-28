@@ -56,7 +56,8 @@ By using a relational database to load our data, we aim to create and provide me
 - Downloaded Information regadring [Teams, Athletes, Medals, Gender](https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo) in form of [.xlsx files](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Tokyo_2020)
 - Used webscraping to download the [list of most Olympic gold medals over any career](https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists)
 - This is the list of multiple Olympic gold medalists, listing people who have won four or more Olympic gold medals.
-- Read these files into Jupyter Notebook for cleaning and transformation
+- Read these files into Jupyter Notebook for cleaning 
+-
 
 
 
@@ -72,14 +73,14 @@ By using a relational database to load our data, we aim to create and provide me
 ---
 ### 2. Transformations
 - 
-- To create our host city table the large data set containing olympic data from 1976 - 2008 was filtered to only show which city hosted the olympics and when. In order to do this the csv file was read into pandas and cleaned to only give values for the variables City and Year. After this na values were dropped as well as all duplicate rows (there were a lot of them) in order to get a small and precise table. Since this csv file only contained data up to the year 2008, we created a separate pandas dataframe to account for years 2012, 2016 and 2021. These two data frames were then merged to get our complete Host City table. 
+- To create our host city table the large data set containing olympic data from 1976 - 2008 was filtered to only show which city hosted the olympics and when. In order to do this the csv files were read into pandas and cleaned to only give values for the variables City and Year. After this na values were dropped as well as all duplicate rows (there were a lot of them) in order to get a small and precise table. Unique values were also obtained. Since this csv file only contained data up to the year 2008, we created a separate pandas dataframe to account for years 2012, 2016 and 2021. These two data frames were then merged to get our complete Host City table. 
 - 
 - 
 - 
 ---
 ### 3. Load
 - Load into postgres with tables in order.
-- We chose postgres becauseof it's tables function. 
+- We chose postgres SQL because of it's tables function. 
 - 
 - 
 - 
