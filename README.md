@@ -3,15 +3,15 @@ Our project plans to gather data for an athletics sportswear company.  We plan t
 
 ---
 ## Table of Contents
-- Group Members
-- Questions to Ask 
-- Data Sources
-    CSV
-    HTML
-- ETL Process
-    1. Extraction
-    2. Transformations
-    3. Load
+- [Group Members](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/README.md#group-members)
+- [Questions to Ask]https://github.com/sammyschapps87/Data_Olympics_proj_2#questions-to-ask
+- [Data Sources]Data Sources
+    [CSV]
+    [HTML]
+- [ETL Process]
+    1. [Extraction]
+    2. [Transformations]
+    3. [Load]
 
 
 
