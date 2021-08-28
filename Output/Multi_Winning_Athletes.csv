@@ -34,7 +34,7 @@ No.,Athlete,Nation,Sport,Years,Games,Gender,Gold,Silver,Bronze,Total
 32,Danuta Kozák,Hungary,Canoeing,2008–2020,Summer,F,6.0,1.0,1.0,8.0
 34,Chris Hoy,Great Britain,Cycling,2000–2012,Summer,M,6.0,1.0,0.0,7.0
 35,Vitaly Scherbo,Unified Team Belarus,Gymnastics,1992–1996,Summer,M,6.0,0.0,4.0,10.0
-36,Ahn Hyun-SooViktor Ahn,South Korea Russia,Short track speed skating,2006–2014,Winter,M,6.0,0.0,2.0,8.0
+36,Viktor Ahn,Russia,Short track speed skating,2006–2014,Winter,M,6.0,0.0,2.0,8.0
 36,Reiner Klimke,United Team of Germany West Germany,Equestrian,1964–1988,Summer,M,6.0,0.0,2.0,8.0
 38,Pál Kovács,Hungary,Fencing,1936–1960,Summer,M,6.0,0.0,1.0,7.0
 39,Rudolf Kárpáti,Hungary,Fencing,1948–1960,Summer,M,6.0,0.0,0.0,6.0
@@ -219,4 +219,3 @@ No.,Athlete,Nation,Sport,Years,Games,Gender,Gold,Silver,Bronze,Total
 182,Serena Williams,United States,Tennis,2000–2012,Summer,F,4.0,0.0,0.0,4.0
 182,Bärbel Wöckel,East Germany,Athletics,1976–1980,Summer,F,4.0,0.0,0.0,4.0
 182,Zhang Yining,China,Table tennis,2004–2008,Summer,F,4.0,0.0,0.0,4.0
-182,,,,,,,,,,

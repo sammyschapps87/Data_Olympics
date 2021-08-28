@@ -4,6 +4,7 @@ https://app.quickdatabasediagrams.com/#/
 
 
 
+
 HostCity
 -
 id PK int
@@ -57,3 +58,17 @@ Gold int
 Silver int
 Bronze int
 Total int
+
+
+EventWinners
+-
+id int PK
+Year int FK >- HostCity.Year
+Sport varchar(50)
+Discipline varchar(50) FK >-< Events.Discipline
+Event varchar(50)
+Athlete varchar(50)
+Gender varchar(50)
+Country varchar(50) FK >-< Countries.NOC
+Event_gender varchar(50)
+Medal varchar(10)
