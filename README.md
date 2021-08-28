@@ -1,6 +1,8 @@
 # **ETL Olympic Committee**
 Our project plans to gather data for an athletics sportswear company.  We plan to look at Summer Olympics Data from 2021 as well as from previous summer olympics. We will create a database using medal count, country, athlete, and sport event data.
+
 ##brief description of final database
+
 ##Purpose of Final Database
 By using a relational database to load our data, we aim to create and provide meaningful information from the data. A relational database also helps us to understand the relationship between the tables and how they interact with each other
 ---
@@ -44,8 +46,6 @@ By using a relational database to load our data, we aim to create and provide me
 #### HTML
     - https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists
 ---
-## ETL Process
-
 ### 1. Extraction
 
 #### Tokyo Olympics Data Extraction
@@ -54,7 +54,9 @@ By using a relational database to load our data, we aim to create and provide me
 - 
 
 #### Historical Olympics Data Extraction
-- 
+- Downloaded [Historical Olympics Dataset](https://www.kaggle.com/divyansh22/summer-olympics-medals) from 1976-2008 in form of .csv files 
+- Placed this file in common [Dataset](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets) folder
+- Read the .csv file into Jupyter Notebook for cleaning and transformation
 
 ---
 #### 2. Transformations
