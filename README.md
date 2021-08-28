@@ -11,7 +11,7 @@ Our project plans to gather data for an athletics sportswear company.  We plan t
 
 ---
 ## Questions to Ask 
-1. What athletes have the most medals Summer 2021?
+1. What athletes have the most medals? 
 2. What countries performed the best and which sport/event?
 3. What event/sport is most popular in the US?
 
