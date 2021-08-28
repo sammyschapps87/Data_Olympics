@@ -46,12 +46,16 @@ By using a relational database to load our data, we aim to create and provide me
 #### HTML
     - https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists
 ---
+
 ### 1. Extraction
 
 #### Tokyo Olympics Data Extraction
 
-- To create our host city table the large data set containing olympic data from 1976 - 2008 was filtered to only show which city hosted the olympics and when. In order to do this the csv file was read into pandas and cleaned to only give values for the variables City and Year. After this na values were dropped as well as all duplicate rows (there were a lot of them) in order to get a small and precise table. Since this csv file only contained data up to the year 2008, we created a separate pandas dataframe to account for years 2012, 2016 and 2021. These two data frames were then merged to get our complete Host City table. 
-- 
+- Downloaded [Tokyo Olympics Medal Count](https://www.kaggle.com/berkayalan/2021-olympics-medals-in-tokyo) as .csv files 
+- Downloaded Information regadring [Teams, Athletes, Medals, Gender](https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo) in form of .xlsx files
+
+
+
 
 #### Historical Olympics Data Extraction
 - Downloaded [Historical Olympics Dataset](https://www.kaggle.com/divyansh22/summer-olympics-medals) from 1976-2008 in form of .csv files 
@@ -61,6 +65,7 @@ By using a relational database to load our data, we aim to create and provide me
 ---
 #### 2. Transformations
 - 
+- To create our host city table the large data set containing olympic data from 1976 - 2008 was filtered to only show which city hosted the olympics and when. In order to do this the csv file was read into pandas and cleaned to only give values for the variables City and Year. After this na values were dropped as well as all duplicate rows (there were a lot of them) in order to get a small and precise table. Since this csv file only contained data up to the year 2008, we created a separate pandas dataframe to account for years 2012, 2016 and 2021. These two data frames were then merged to get our complete Host City table. 
 - 
 - 
 ---
