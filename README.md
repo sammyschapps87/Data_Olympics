@@ -4,14 +4,14 @@ Our project plans to gather data for an athletics sportswear company.  We plan t
 ---
 ## Table of Contents
 - [Group Members](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/README.md#group-members)
-- [Questions to Ask]https://github.com/sammyschapps87/Data_Olympics_proj_2#questions-to-ask
-- [Data Sources]Data Sources
-    [CSV]
-    [HTML]
-- [ETL Process]
-    1. [Extraction]
-    2. [Transformations]
-    3. [Load]
+- [Questions to Ask](https://github.com/sammyschapps87/Data_Olympics_proj_2#questions-to-ask)
+- [Data Sources](https://github.com/sammyschapps87/Data_Olympics_proj_2#data-sources)
+    [CSV](https://github.com/sammyschapps87/Data_Olympics_proj_2#csv)
+    [HTML](https://github.com/sammyschapps87/Data_Olympics_proj_2#html) 
+- [ETL Process](https://github.com/sammyschapps87/Data_Olympics_proj_2#etl-process)
+    1. [Extraction](https://github.com/sammyschapps87/Data_Olympics_proj_2#1-extraction)
+    2. [Transformations](https://github.com/sammyschapps87/Data_Olympics_proj_2#2-transformations)
+    3. [Load](https://github.com/sammyschapps87/Data_Olympics_proj_2#3-load)
 
 
 
