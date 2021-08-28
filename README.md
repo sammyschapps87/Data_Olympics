@@ -19,11 +19,11 @@ Our project plans to gather data for an athletics sportswear company.  We plan t
 
 ---
 ## Group Members
-- Saleha Ahmed
-- Sam Schappel
-- Brian Johnson
-- Vasav Dave
-- Tinu Adepoju
+- [Saleha Ahmed](https://github.com/saleha456)
+- [Sam Schappel](https://github.com/sammyschapps87)
+- [Brian Johnson](https://github.com/Bjohnson08021)
+- [Vasav Dave](https://github.com/vasavdave)
+- [Tinu Adepoju](https://github.com/Tinuola-1)
 
 ---
 ## Questions to Ask 
