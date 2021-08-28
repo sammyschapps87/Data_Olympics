@@ -97,6 +97,7 @@ CREATE TABLE MultiWinnningAthletes (
     --FOREIGN KEY (Sport) REFERENCES Events(Discipline)
 );
 
+
 select * from MultiWinnningAthletes
 
 DROP TABLE MultiWinnningAthletes
