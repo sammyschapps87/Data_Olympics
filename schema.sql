@@ -94,7 +94,7 @@ CREATE TABLE MultiWinnningAthletes (
     Total           INT               NOT NULL,
     --FOREIGN KEY (Athlete) REFERENCES Athletes(Name),
     FOREIGN KEY (Nation)              REFERENCES Countries(NOC)
-    --FOREIGN KEY (Sport) REFERENCES Events(Discipline)
+    FOREIGN KEY (Sport) REFERENCES Events(Discipline)
 );
 
 
