@@ -33,7 +33,7 @@ CREATE TABLE Athletes (
     Name            VARCHAR(50),
     Country         VARCHAR(50),
     PRIMARY KEY (id)
-	--FOREIGN KEY (Country) REFERENCES Countries(NOC)
+    --FOREIGN KEY (Country) REFERENCES Countries(NOC)
 );
 
 DROP TABLE athletes
@@ -68,7 +68,7 @@ CREATE TABLE EventWinners (
     Event_gender    VARCHAR(50)       NOT NULL,
     Medal           VARCHAR(10)       NOT NULL,
     FOREIGN KEY (Year)                REFERENCES HostCity(Year),
---	FOREIGN KEY (Sport) REFERENCES Events(Discipline),
+    --	FOREIGN KEY (Sport) REFERENCES Events(Discipline),
     FOREIGN KEY (Country)             REFERENCES Countries(NOC)	
 );
 
@@ -86,9 +86,9 @@ CREATE TABLE MultiWinnningAthletes (
     Silver          INT               NOT NULL,
     Bronze          INT               NOT NULL,
     Total           INT               NOT NULL,
-	--FOREIGN KEY (Athlete) REFERENCES Athletes(Name),
+    --FOREIGN KEY (Athlete) REFERENCES Athletes(Name),
     FOREIGN KEY (Nation)              REFERENCES Countries(NOC)
-	--FOREIGN KEY (Sport) REFERENCES Events(Discipline)
+    --FOREIGN KEY (Sport) REFERENCES Events(Discipline)
 );
 
 DROP TABLE MultiWinnningAthletes
