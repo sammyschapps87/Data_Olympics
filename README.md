@@ -92,8 +92,11 @@ By using a relational database to load our data, we aim to create and provide me
 ![](Images/ERD.png)
 
 #### Sample Queries
+#### What athletes have the most medals?
 ![](Images/athletes_with_the_most_medals.png)
+#### What countries performed the best and which sport/event?
 ![](Images/countries_performed_best.png)
+#### What event/sport is most popular in the US?
 ![](Images/sports_most_popular_in_US.png)
 
 
