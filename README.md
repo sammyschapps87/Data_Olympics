@@ -85,6 +85,7 @@ By using a relational database to load our data, we aim to create and provide me
 - Filtered data to capture countries with country codes 
 - Transformed two columns (NOC, Country) into single column to concatenate two datasets
 - Dropped duplicates and transfromed country names if changed from past
+- Newly introduced countries were identified, captured and added to the table
 
 **[Medals Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Medal%20Winners.ipynb)**
 
