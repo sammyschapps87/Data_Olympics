@@ -79,7 +79,7 @@ By using a relational database to load our data, we aim to create and provide me
 - 
 ---
 ### 3. Load
-- Load into postgres with tables in order.
+- Load into postgres with tables in the order they were created
 - We chose postgres SQL because of it's tables function. 
 - 
 - 
