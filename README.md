@@ -2,7 +2,8 @@
 Our project plans to gather data for an athletics sportswear company.  We plan to look at Summer Olympics Data from 2021 as well as from previous summer olympics. We will create a database using medal count, country, athlete, and sport event data. 
 
 ## brief description of final database
-
+A Database named "Olympics" with Sql tables showing the relationship between Athletes, the countries they represent, the events they participated in, the category and number of medals they won.
+Dependencies used; Pandas, Numpy, Beautiful Soup, and Splinter.
 
 ## Purpose of Final Database
 By using a relational database to load our data, we aim to create and provide meaningful information from the data. A relational database also helps us to understand the relationship between the tables and how they interact with each other. This Database will help the sportswear company to deciide which athlete and country to sponsor.
