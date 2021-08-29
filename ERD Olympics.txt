@@ -10,7 +10,7 @@ Events
 id  int
 Sport varchar(50)
 Discipline PK varchar(50)
-#Gender varchar(10)
+
 
 Countries
 -
@@ -18,13 +18,6 @@ id int
 Name varchar(50) 
 NOC varchar(50) PK
 
-
-
-#Athletes
-#----
-#id PK int
-#Country varchar(50) #FK >-< Countries.NOC
-#Name varchar(50)
 
 
 Medals
