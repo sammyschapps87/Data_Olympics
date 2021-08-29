@@ -22,13 +22,7 @@ By using a relational database to load our data, we aim to create and provide me
 
 
 
----
-## Group Members
-- [Saleha Ahmed](https://github.com/saleha456)
-- [Sam Schappel](https://github.com/sammyschapps87)
-- [Brian Johnson](https://github.com/Bjohnson08021)
-- [Vasav Dave](https://github.com/vasavdave)
-- [Tinu Adepoju](https://github.com/Tinuola-1)
+
 
 ---
 ## Questions to Ask 
@@ -106,3 +100,12 @@ By using a relational database to load our data, we aim to create and provide me
 
 ## Project Status
 #### This project is in progress.
+
+
+---
+## Group Members
+- [Saleha Ahmed](https://github.com/saleha456)
+- [Sam Schappel](https://github.com/sammyschapps87)
+- [Brian Johnson](https://github.com/Bjohnson08021)
+- [Vasav Dave](https://github.com/vasavdave)
+- [Tinu Adepoju](https://github.com/Tinuola-1)
