@@ -71,8 +71,8 @@ By using a relational database to load our data, we aim to create and provide me
 - Placed this file in common [Dataset](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets) folder.
 - Read the .csv file into Jupyter Notebook for cleaning and transformation.
 
-
 ---
+
 ### 2. Transformations
 
 
@@ -114,7 +114,8 @@ By using a relational database to load our data, we aim to create and provide me
 - Junk annd foreign characters were dismissed.
 - Multiple sports distributed under same category were unified.
 - Floats were converted to integers to neatly present this infromation.
- 
+
+
 ---
 ### 3. Load
 - Load into postgres with tables in the order they were created
@@ -152,7 +153,6 @@ Popular event/Sport in US thorugh out the years:
 
 ## Project Status
 #### This project is complete.
-
 
 ---
 ## Group Members
