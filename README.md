@@ -24,7 +24,6 @@ By using a relational database to load our data, we aim to create and provide me
 ---
 ## Table of Contents
 
-- [Questions to Ask](https://github.com/sammyschapps87/Data_Olympics_proj_2#questions-to-ask)
 - [Data Sources](https://github.com/sammyschapps87/Data_Olympics_proj_2#data-sources)
    - [CSV](https://github.com/sammyschapps87/Data_Olympics_proj_2#csv)
    - [HTML](https://github.com/sammyschapps87/Data_Olympics_proj_2#html)
@@ -130,11 +129,16 @@ By using a relational database to load our data, we aim to create and provide me
 
 ### Sample Queries
 
- What athletes have the most medals?
+What athletes have the most medals?
+
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/athletes_with_the_most_medals%20(2).png">
- What countries performed the best and which sport/event over multiple years?
+
+What countries performed the best and which sport/event over multiple years?
+
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/countries_performed_best%20(2).png" width="300" height="300">
- What event/sport is most popular in the US?
+
+What event/sport is most popular in the US?
+
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/sports_most_popular_in_US%20(2).png">
 
 
