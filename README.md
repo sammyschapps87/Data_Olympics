@@ -93,20 +93,20 @@ By using a relational database to load our data, we aim to create and provide me
 - Medal counts were then categorized and summarized into one table.
 
 **[Event Winners](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Event%20Winners.ipynb)**
+- Created the events data frame by loading the 1976-2008 csv into pandas.
+- Filtered to show variables Year, Sport, Discipline, Event, Athlete, Gender, Country, gender by events and Medals. 
+- Floats were converetd to integers for Years column.
+- Dropped duplicates as well as na values to convert into a csv file.
 
 **[Multi Winning Athletes](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Multi%20Winning%20Athletes.ipynb)**
+ - This table captures important and detailed information about any athelete including gender, country, category and summary of the medals won, years during which medals were won, discipline of the sport.
+- Beautiful Soup, Splinter, Chrome Driver manager helped in extracting data from HTML.
+- Data extracted from HTML web scraping was used to create a dataframe
+- Country and Athlete names were then transformed to capture updated and unified names across time and data frames.
+- Junk annd foreign characters were dismissed.
+- Multiple sports distributed under same category were unified.
+- Floats were converted to integers to neatly present this infromation.
  
- 
-- To create our host city table the large data set containing olympic data from 1976 - 2008 was filtered to only show which city hosted the olympics and when. In order to do this the csv files were read into pandas and cleaned to only give values for the variables City and Year. After this na values were dropped as well as all duplicate rows (there were a lot of them) in order to get a small and precise table. Unique values were also obtained. Since this csv file only contained data up to the year 2008, we created a separate pandas dataframe to account for years 2012, 2016 and 2021. These two data frames were then merged to get our complete Host City table. 
- 
-- The Countries data frame was created by reading in the Team.xlsx and Summer-Olympic-medals-1976-to-2008.csv into pandas. We filtered the table for the 1976-2008 data frame to only include variables Country and Country_Code. The teams data frame was also filtered to only include variables NOC and Name. The variable NOC was then renamed Country in order to merge the two. We then dropped all duplicates from both data frames. The data frames were then merged using pd.concat and once again we dropped all duplicate rows from the data frame. Country names were then renamed so that there were no misconceptions since the same country could have two different names. After all this the data frame was converted to a csv.
- 
-- The event_winners data frame was created by reading the 1976-2008 csv file into pandas. The data was filtered to only include variables Year, Sport, Discipline, Event, Athlete, Gender, Country,   Event_gender and Medal. The variable Year was then changed into an integer to get rid of a decimal that should not be there. After that it was turned into a csv file. 
- 
-- To create the Medals winner table the Medals.xlsx was read into pandas. We then renamed variables Team/NOC to Country and Total to Medal. The Rank by Total variable was then dropped from the table and a new variable called year was created to represent the year as 2021. We then loaded in the 1976-2008 csv and filtered it so that the only variables were Year, Country and Medal. We then created three separate data frames each of which containing only information for either gold silver or bronze medals. (NOT FINISHED)
- 
-- To create the Multi_Winning_Athletes data frame we loaded in the html https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists into pandas. We then dropped all na values and changed the names of some countries, athletes and sports to avoid confusion. The variables Gold, Silver, Bronze and Total were then changed to integers and the file was turned into a csv. 
-- The events data frame was created by loading the 1976-2008 csv into pandas and filtering to only show variables Sport and Discipline. Duplicates were then dropped as well as na values and turned it into a csv file. 
 ---
 ### 3. Load
 - Load into postgres with tables in the order they were created
