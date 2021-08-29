@@ -69,17 +69,17 @@ By using a relational database to load our data, we aim to create and provide me
 ### 2. Transformations
 
 
-## [Host City Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Host%20City.ipynb)
+### [Host City Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Host%20City.ipynb)
 
-## [Events Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/events.ipynb)
+### [Events Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/events.ipynb)
 
-## [Countries Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Countries.ipynb)
+### [Countries Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Countries.ipynb)
 
-## [Medals Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Medal%20Winners.ipynb)
+### [Medals Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Medal%20Winners.ipynb)
 
-## [Event Winners](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Event%20Winners.ipynb)
+### [Event Winners](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Event%20Winners.ipynb)
 
-## [Multi Winning Athletes](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Multi%20Winning%20Athletes.ipynb)
+### [Multi Winning Athletes](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Multi%20Winning%20Athletes.ipynb)
 
 - In order to create the Athletes database we read the Athlets_clean.xlsx into a pandas data frame. Once this was done we created a copy of the database and got rid of all columns that were not "First Last" or "NOC". After this we dropped all duplicate rows and converted it to a csv file. 
  
