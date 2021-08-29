@@ -127,7 +127,7 @@ By using a relational database to load our data, we aim to create and provide me
 ###   ERD
 ![](Images/ERD.png)
 
-### Sample Queries
+### [Sample Queries](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/sample_queries.sql)
 
 Athletes who performed best in Archery
 
