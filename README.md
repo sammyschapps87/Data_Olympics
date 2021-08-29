@@ -137,7 +137,7 @@ Athletes who performed best in Archery:
       group by ew.athlete, c.Name
       order by count desc
 
-For a given sport, countries that performed the best over multiple years:
+Top performers by country for a given sport:
 
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/countries_performed_best%20(2).png" width="300" height="300">
 
