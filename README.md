@@ -21,17 +21,22 @@ A Database named "Olympics" with sql tables showing the relationship between ath
 ## Purpose of Final Database
 By using a relational database to load our data, we aim to create and provide meaningful information from the data. A relational database also helps us to understand the relationship between the tables and how they interact with each other. This Database will help the sportswear company to decide which athlete and country to sponsor.
 
+---
 ## Table of Contents
-- [Group Members](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/README.md#group-members)
+
 - [Questions to Ask](https://github.com/sammyschapps87/Data_Olympics_proj_2#questions-to-ask)
 - [Data Sources](https://github.com/sammyschapps87/Data_Olympics_proj_2#data-sources)
-    [CSV](https://github.com/sammyschapps87/Data_Olympics_proj_2#csv)
-    [HTML](https://github.com/sammyschapps87/Data_Olympics_proj_2#html) 
+   - [CSV](https://github.com/sammyschapps87/Data_Olympics_proj_2#csv)
+   - [HTML](https://github.com/sammyschapps87/Data_Olympics_proj_2#html)
 - [ETL Process](https://github.com/sammyschapps87/Data_Olympics_proj_2#etl-process)
-    1. [Extraction](https://github.com/sammyschapps87/Data_Olympics_proj_2#1-extraction)
-    2. [Transformations](https://github.com/sammyschapps87/Data_Olympics_proj_2#2-transformations)
-    3. [Load](https://github.com/sammyschapps87/Data_Olympics_proj_2#3-load)
-
+   - [Extraction](https://github.com/sammyschapps87/Data_Olympics_proj_2#1-extraction)
+   - [Transformations](https://github.com/sammyschapps87/Data_Olympics_proj_2#2-transformations)
+   - [Load](https://github.com/sammyschapps87/Data_Olympics_proj_2#3-load)
+- [Final Products](https://github.com/sammyschapps87/Data_Olympics_proj_2#final-products)
+   - [ERD](https://github.com/sammyschapps87/Data_Olympics_proj_2#erd)
+   - [Sample Queries](https://github.com/sammyschapps87/Data_Olympics_proj_2#sample-queries) 
+- [Project Status](https://github.com/sammyschapps87/Data_Olympics_proj_2#project-status)
+- [Group Members](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/README.md#group-members)
 
 ---
 ## Data Sources
@@ -45,7 +50,9 @@ By using a relational database to load our data, we aim to create and provide me
     - https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists
 ---
 
-## 1. Extraction
+## ETL Process
+
+### 1. Extraction
 
 
 #### Tokyo Olympics Data Extraction
@@ -67,7 +74,7 @@ By using a relational database to load our data, we aim to create and provide me
 
 
 ---
-## 2. Transformations
+### 2. Transformations
 
 
 **[Host City Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Host%20City.ipynb)**
@@ -110,19 +117,20 @@ By using a relational database to load our data, we aim to create and provide me
 - Floats were converted to integers to neatly present this infromation.
  
 ---
-## 3. Load
+### 3. Load
 - Load into postgres with tables in the order they were created
 - We chose postgres SQL because of it's tables function and its capability to easily display our answers to the questions asked. 
 - Follow [instructions.md](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Instructions.md) to load tables.
-- 
+
 ---
 ## Final Products 
 
-####   ERD
+###   ERD
 ![](Images/ERD.png)
 
-#### Sample Queries
-#### What athletes have the most medals?
+### Sample Queries
+
+ What athletes have the most medals?
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/athletes_with_the_most_medals%20(2).png">
  What countries performed the best and which sport/event over multiple years?
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/countries_performed_best%20(2).png" width="300" height="300">
@@ -132,7 +140,7 @@ By using a relational database to load our data, we aim to create and provide me
 
 
 ## Project Status
-#### This project is in progress.
+#### This project is complete.
 
 
 ---
