@@ -48,22 +48,20 @@ By using a relational database to load our data, we aim to create and provide me
 
 #### Tokyo Olympics Data Extraction
 
-- Downloaded [Tokyo Olympics Medal Count](https://www.kaggle.com/berkayalan/2021-olympics-medals-in-tokyo) as [.csv file](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Tokyo_Medals_2021) 
-- Downloaded Information regadring [Teams, Athletes, Medals, Gender](https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo) in form of [.xlsx files](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Tokyo_2020)
+- Downloaded [Tokyo Olympics Medal Count](https://www.kaggle.com/berkayalan/2021-olympics-medals-in-tokyo) as [.csv file](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Tokyo_Medals_2021) .
+- Downloaded Information regadring [Teams, Athletes, Medals, Gender](https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo) in form of [.xlsx files](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Tokyo_2020).
 - Used webscraping to download the [list of most Olympic gold medals over any career](https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists)
 - This is the list of multiple Olympic gold medalists, listing people who have won four or more Olympic gold medals.
-- Read these files into Jupyter Notebook for cleaning 
--
+- Read these files into Jupyter Notebook for cleaning.
 
 
 
 #### Historical Olympics Data Extraction
-- Downloaded [Historical Olympics Dataset](https://www.kaggle.com/divyansh22/summer-olympics-medals) from 1976-2008 in form of .csv file
+- Downloaded [Historical Olympics Dataset](https://www.kaggle.com/divyansh22/summer-olympics-medals) from 1976-2008 in form of .csv file.
 - This file contains information about medal awarded between the period of 1976-2008 in the Summer Olympics.
-- Extracted infomration about athlete, their country, gender, discipline in which he/she won and the event name from this [dataset](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Summer%20Olympics%20Medals%201976-2008)
-- Placed this file in common [Dataset](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets) folder
-- Read the .csv file into Jupyter Notebook for cleaning and transformation
-- 
+- Extracted infomration about athlete, their country, gender, discipline in which he/she won and the event name from this [dataset](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets/Summer%20Olympics%20Medals%201976-2008).
+- Placed this file in common [Dataset](https://github.com/sammyschapps87/Data_Olympics_proj_2/tree/main/Data_Sets) folder.
+- Read the .csv file into Jupyter Notebook for cleaning and transformation.
 
 
 ---
@@ -71,23 +69,28 @@ By using a relational database to load our data, we aim to create and provide me
 
 
 **[Host City Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Host%20City.ipynb)**
-- Historical Dataset from 1976-2008 was filtered to capture Host Cities and the year it was organized in
-- Dropped NA as well as duplicate values to obtain unique values
-- Historical Datasets and Tokyo 2021 Datasets were merged to create complete Host City table
+- Historical Dataset from 1976-2008 was filtered to capture Host Cities and the year it was organized in.
+- Dropped NA as well as duplicate values to obtain unique values.
+- Historical Datasets and Tokyo 2021 Datasets were merged to create complete Host City table.
 
 **[Events Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/events.ipynb)**
-- Newly introduced sports, events and discplines were not present in Historical dataset
-- Captured those events from web scraping and Tokyo olympics 
-- Events table was created by adding these disciplines and sports into single dataframe
+- Newly introduced sports, events and discplines were not present in Historical dataset.
+- Captured those events from web scraping and Tokyo olympics. 
+- Events table was created by adding these disciplines and sports into single dataframe.
 
 **[Countries Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Countries.ipynb)**
 - Captured countries data from [Teams excel](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Data_Sets/Tokyo_2020/Teams.xlsx) and historical summer olympics
-- Filtered data to capture countries with country codes 
-- Transformed two columns (NOC, Country) into single column to concatenate two datasets
-- Dropped duplicates and transfromed country names if changed from past
-- Newly introduced countries were identified, captured and added to the table
+- Filtered data to capture countries with country codes. 
+- Transformed two columns (NOC, Country) into single column to concatenate two datasets.
+- Dropped duplicates and transfromed country names if changed from past.
+- Newly introduced countries were identified, captured and added to the table.
 
 **[Medals Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Medal%20Winners.ipynb)**
+- Intention of this table was to create a record of medal winner countries from 1976 to 2021.
+- Data was collected from two dataframes and was grouped by year and country.
+- Medal information was then transfromed from rows to columns to display medals won by each country every olympic.
+- NAs were replaced with zeroes, floats to integers.
+- Medal counts were then categorized and summarized into one table.
 
 **[Event Winners](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Event%20Winners.ipynb)**
 
