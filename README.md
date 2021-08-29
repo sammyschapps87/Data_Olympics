@@ -92,9 +92,9 @@ By using a relational database to load our data, we aim to create and provide me
 ![](Images/ERD.png)
 
 #### Sample Queries
-![](Images/athletes with the most medals.png)
-![](Images/countries performed best.png)
-![](Images/sports most popular in US.png)
+![](Images/athletes_with_the_most_medals.png)
+![](Images/countries_performed_best.png)
+![](Images/sports_most_popular_in_US.png)
 
 
 
