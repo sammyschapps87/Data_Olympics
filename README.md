@@ -76,8 +76,15 @@ By using a relational database to load our data, we aim to create and provide me
 - Historical Datasets and Tokyo 2021 Datasets were merged to create complete Host City table
 
 **[Events Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/events.ipynb)**
+- Newly introduced sports, events and discplines were not present in Historical dataset
+- Captured those events from web scraping and Tokyo olympics 
+- Events table was created by adding these disciplines and sports into single dataframe
 
 **[Countries Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Countries.ipynb)**
+- Captured countries data from [Teams excel](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Data_Sets/Tokyo_2020/Teams.xlsx) and historical summer olympics data
+- Filtered data to capture countries with country codes 
+- Transformed two columns (NOC, Country) into single column to concatenate two datasets
+- Dropped duplicates and transfromed country names if changed from past
 
 **[Medals Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Medal%20Winners.ipynb)**
 
