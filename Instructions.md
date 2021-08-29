@@ -5,10 +5,11 @@
 * PostGres
 * Chrome and ChromeDriverManager
 * Python Dependencies:
-  * Pandas
   * Numpy
-  * Beautiful Soup
+  * Pandas
   * Splinter
+  * Beautiful Soup
+  * Jupyter Notebook
 
 
 
