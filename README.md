@@ -129,7 +129,7 @@ By using a relational database to load our data, we aim to create and provide me
 
 ### [Sample Queries](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/sample_queries.sql)
 
-Athletes who performed best in Archery
+Athletes who performed best in Archery:
 
       select ew.athlete, c.Name, count(ew.medal) from eventwinners ew
       left join countries c on c.NOC = ew.Country
@@ -137,11 +137,11 @@ Athletes who performed best in Archery
       group by ew.athlete, c.Name
       order by count desc
 
-What countries performed the best and which sport/event over multiple years?
+For a given sport, countries that performed the best over multiple years:
 
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/countries_performed_best%20(2).png" width="300" height="300">
 
-Popular event/Sport in US thorugh out the years
+Popular event/Sport in US thorugh out the years:
 
      select  ew.discipline, count(ew.medal) from eventwinners ew
      left join countries c on c.NOC = ew.Country
