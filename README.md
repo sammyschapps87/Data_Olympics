@@ -88,9 +88,9 @@ By using a relational database to load our data, we aim to create and provide me
 ---
 ### 3. Load
 - Load into postgres with tables in the order they were created
-- We chose postgres SQL because of it's tables function. 
+- We chose postgres SQL because of it's tables function and its capability to easily display our answers to the questions asked. 
 - 
-- 
+- Follow instructions.md to load tables.
 - 
 ---
 ## Final Products 
