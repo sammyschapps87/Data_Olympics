@@ -111,7 +111,7 @@ By using a relational database to load our data, we aim to create and provide me
 #### Sample Queries
 #### What athletes have the most medals?
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/athletes_with_the_most_medals%20(2).png">
- What countries performed the best and which sport/event?
+ What countries performed the best and which sport/event over multiple years?
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/countries_performed_best%20(2).png" width="300" height="300">
  What event/sport is most popular in the US?
 <img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/sports_most_popular_in_US%20(2).png">
