@@ -43,7 +43,17 @@ group by ew.athlete, c.Name
 order by count desc
 
 
+-- United States Cycling Data
+
+select * from eventwinners ew
+left join events e on ew.discipline = e.discipline
+left join countries c on ew.country = c.NOC
+where e.sport = 'Cycling' and c.Name = 'United States'
 
 
 
+--- Russia's Medal Count Throughout the Years
+select m.year, m.country, m.gold, m.silver, m.bronze, m.total from medals m
+left join countries c on m.country = c.NOC
+where c.Name = 'Russia'
 

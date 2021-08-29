@@ -40,38 +40,38 @@
 39,Taekwondo,Taekwondo
 40,Triathlon,Triathlon
 41,Cycling,BMX
-42,,Artistic Gymnastics
-43,,Karate
-44,,Wrestling
-45,,Rhythmic Gymnastics
-46,,Baseball/Softball
-47,,Artistic Swimming
-48,,Beach Volleyball
-49,,Trampoline Gymnastics
-50,,Marathon Swimming
-51,,Canoe Slalom
-52,,Surfing
-53,,Canoe Sprint
-54,,Cycling BMX Racing
-55,,Rugby Sevens
-56,,Equestrian
-57,,Golf
-58,,Skateboarding
-59,,Modern Pentathlon
-60,,Cycling Mountain Bike
-61,,3x3 Basketball
-62,,Cycling BMX Freestyle
-63,,Sport Climbing
-64,,Gymnastics
-65,,Cross-country skiing
-66,,Biathlon
-67,,Canoeing
-68,,Cycling
-69,,Synchronized swimming
-70,,Short track speed skating
-71,,Speed skating
-72,,Alpine skiing
-73,,Bobsleigh
-74,,Ice hockey
-75,,Ski jumping
-76,,Luge
+42,Gymnastics,Artistic Gymnastics
+43,Karate,Karate
+44,Wrestling,Wrestling
+45,Gymnastics,Rhythmic Gymnastics
+46,Baseballl,Baseball/Softball
+47,Swimming,Artistic Swimming
+48,Volleyball,Beach Volleyball
+49,Gymnastics,Trampoline Gymnastics
+50,Swimming,Marathon Swimming
+51,Canoe / Kayak,Canoe Slalom
+52,Surfing,Surfing
+53,Canoe / Kayak,Canoe Sprint
+54,Cycling,Cycling BMX Racing
+55,Rugby,Rugby Sevens
+56,Equestrian,Equestrian
+57,Golf,Golf
+58,Skateboarding,Skateboarding
+59,Modern Pentathlon,Modern Pentathlon
+60,Cycling,Cycling Mountain Bike
+61,Basketball,3x3 Basketball
+62,Cycling,Cycling BMX Freestyle
+63,Sport Climbing,Sport Climbing
+64,Gymnastics,Gymnastics
+65,Skiing,Cross-country skiing
+66,Skiing,Biathlon
+67,Canoe / Kayak,Canoeing
+68,Cycling,Cycling
+69,Swimming,Synchronized swimming
+70,Speed Skating,Short track speed skating
+71,Speed Skating,Speed skating
+72,Skiing,Alpine skiing
+73,Bobsleigh,Bobsleigh
+74,Ice Hockey,Ice hockey
+75,Ski Jumping,Ski jumping
+76,Luge,Luge
