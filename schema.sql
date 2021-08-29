@@ -1,4 +1,4 @@
-
+----------  Table 1 -------------
 
 CREATE TABLE HostCity (
     id              INT               NOT NULL,
@@ -7,7 +7,7 @@ CREATE TABLE HostCity (
     PRIMARY KEY (Year)
 );
 	 
-	
+----------  Table 2 -------------
 
 CREATE TABLE Events (
     id          INT               NOT NULL,
@@ -17,11 +17,7 @@ CREATE TABLE Events (
 
 );
 
-drop table events
-
-
-
-
+----------  Table 3 -------------
 
 
 CREATE TABLE Countries (
@@ -31,20 +27,7 @@ CREATE TABLE Countries (
     PRIMARY KEY (NOC)
 );
 
-
-
-
---CREATE TABLE Athletes (
---    id              INT  ,
---    Name            VARCHAR(50),
---    Country         VARCHAR(50),
---    PRIMARY KEY (id)
-    --FOREIGN KEY (Country) REFERENCES Countries(NOC)
---);
-
-
-
-
+----------  Table 4 -------------
 
 CREATE TABLE Medals (
     id              INT               NOT NULL,
@@ -59,7 +42,7 @@ CREATE TABLE Medals (
     FOREIGN KEY (Year)                REFERENCES HostCity(Year)
 );
 
-
+----------  Table 5 -------------
 
 CREATE TABLE EventWinners (
     id              INT               NOT NULL,
@@ -77,8 +60,7 @@ CREATE TABLE EventWinners (
     FOREIGN KEY (Country)             REFERENCES Countries(NOC)	
 );
 
-drop table eventwinners
-
+----------  Table 6 -------------
 
 CREATE TABLE MultiWinnningAthletes (
     Rank            INT ,
@@ -92,26 +74,7 @@ CREATE TABLE MultiWinnningAthletes (
     Silver          INT               NOT NULL,
     Bronze          INT               NOT NULL,
     Total           INT               NOT NULL,
-    --FOREIGN KEY (Athlete) REFERENCES Athletes(Name),
-    FOREIGN KEY (Nation)              REFERENCES Countries(NOC)
+    FOREIGN KEY (Nation)              REFERENCES Countries(NOC),
     FOREIGN KEY (Sport) REFERENCES Events(Discipline)
 );
-
-
-select * from MultiWinnningAthletes
-
-DROP TABLE MultiWinnningAthletes
-
-DROP TABLE EventWinners
-DROP TABLE Medals
-DROP TABLE Athletes
-DROP TABLE Countries
-DROP TABLE Events
-DROP TABLE HostCity
-
-
-
-
-select * from MultiWinnningAthletes
-
 

@@ -8,9 +8,9 @@ limit 10;
 
 
 --- athletes that have the most medals
-select ew.athlete, ew.discipline, count(ew.medal) from eventwinners ew
-group by ew.athlete, ew.discipline
-order by  count desc;
+select m.athlete, m.sport, count(total) from MultiWinnningAthletes m
+group by m.athlete, m.sport
+order by count desc;
 
 
 --- what sport did United States perform best over the years
