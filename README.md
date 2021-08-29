@@ -2,11 +2,11 @@
 Our project plans to gather data for an athletics sportswear company.  We plan to look at Summer Olympics Data from 2021 as well as from previous summer olympics. We will create a database using medal count, country, athlete, and sport event data. 
 
 ## Brief Description of Final Database
-A Database named "Olympics" with Sql tables showing the relationship between Countries, Events and Medal Counts.
+A Database named "Olympics" with Sql tables showing the relationship between Athletes, the countries they represent, the events they participated in, the category and number of medals they won.
 Dependencies used; Pandas, Numpy, Beautiful Soup, and Splinter.
 
 ## Purpose of Final Database
-By using a relational database to load our data, we aim to create and provide meaningful information from the data. A relational database also helps us to understand the relationship between the tables and how they interact with each other. This Database will help the sportswear company to decide which athlete and country to sponsor.
+By using a relational database to load our data, we aim to create and provide meaningful information from the data. A relational database also helps us to understand the relationship between the tables and how they interact with each other. This Database will help the sportswear company to deciide which athlete and country to sponsor.
 
 ## Table of Contents
 - [Group Members](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/README.md#group-members)
@@ -108,7 +108,7 @@ By using a relational database to load our data, we aim to create and provide me
 
 #### Sample Queries
 #### What athletes have the most medals?
-![](Images/athletes_with_the_most_medals.png)
+<img src="https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Images/athletes_with_the_most_medals.png" width="100" height="100">
 #### What countries performed the best and which sport/event?
 ![](Images/countries_performed_best.png)
 #### What event/sport is most popular in the US?
