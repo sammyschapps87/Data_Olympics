@@ -1,11 +1,25 @@
 # **ETL Olympic Committee**
+
+ <p align="center">
+   <img src="/Images/Olympics_Logo.png" alt="Olympics_Logo" width="700"/>
+ </p>
+
+
 Our project plans to gather data for an athletics sportswear company.  We plan to look at Summer Olympics Data from 2021 as well as from previous summer olympics. We will create a database using medal count, country, athlete, and sport event data. 
 
 ## Brief Description of Final Database
-A Database named "Olympics" with Sql tables showing the relationship between Athletes, the countries they represent, the events they participated in, the category and number of medals they won.
+
+A Database named "Olympics" with sql tables showing the relationship between athletes, countries they represent, events they participated in, categories and number of medals they won is created. 
+
+
+- This database captures information about olympic medal winning athletes, listing people who have won four or more Olympic gold medals, their country, gender, sports categroy they participated in and years during which the medals were won. 
+- It also uniquely identifies sport events with multiple disciplines and winners of those events.
+- It would be interesting to know medals each country has won over the years so we collected those information.
+- We have also attempted to capture list of particpating countries and cities where summer olympics were hosted.
+
 
 ## Purpose of Final Database
-By using a relational database to load our data, we aim to create and provide meaningful information from the data. A relational database also helps us to understand the relationship between the tables and how they interact with each other. This Database will help the sportswear company to deciide which athlete and country to sponsor.
+By using a relational database to load our data, we aim to create and provide meaningful information from the data. A relational database also helps us to understand the relationship between the tables and how they interact with each other. This Database will help the sportswear company to decide which athlete and country to sponsor.
 
 ## Table of Contents
 - [Group Members](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/README.md#group-members)
@@ -19,17 +33,6 @@ By using a relational database to load our data, we aim to create and provide me
     3. [Load](https://github.com/sammyschapps87/Data_Olympics_proj_2#3-load)
 
 
-
-
-
-
-
----
-## Questions to Ask 
-1. What athletes have the most medals? 
-2. What countries performed the best and which sport/event?
-3. What event/sport is most popular in the US?
-
 ---
 ## Data Sources
 #### CSV
@@ -42,7 +45,7 @@ By using a relational database to load our data, we aim to create and provide me
     - https://en.wikipedia.org/wiki/List_of_multiple_Olympic_gold_medalists
 ---
 
-### 1. Extraction
+## 1. Extraction
 
 
 #### Tokyo Olympics Data Extraction
@@ -64,7 +67,7 @@ By using a relational database to load our data, we aim to create and provide me
 
 
 ---
-### 2. Transformations
+## 2. Transformations
 
 
 **[Host City Table](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Notebooks/Host%20City.ipynb)**
@@ -107,7 +110,7 @@ By using a relational database to load our data, we aim to create and provide me
 - Floats were converted to integers to neatly present this infromation.
  
 ---
-### 3. Load
+## 3. Load
 - Load into postgres with tables in the order they were created
 - We chose postgres SQL because of it's tables function and its capability to easily display our answers to the questions asked. 
 - Follow [instructions.md](https://github.com/sammyschapps87/Data_Olympics_proj_2/blob/main/Instructions.md) to load tables.
